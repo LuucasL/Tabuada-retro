@@ -13,7 +13,7 @@ O objetivo deste projeto é recriar a experiência de um brinquedo educativo ret
 ## 🚀 Funcionalidades
 
 - ✅ Modo Retrô
-- 🚧 Modo Treino
+- ✅ Modo Treino
 - 🚧 Modo Desafio
 - 🚧 Estatísticas
 - 🚧 Interface Gráfica (Tkinter)
