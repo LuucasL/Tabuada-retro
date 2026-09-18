@@ -1,12 +1,10 @@
 from core.utils import limpar, cabecalho
 
-def modo_retro():
+def modo_retro(numero):
 
     limpar()
 
     cabecalho()
-
-    numero = int(input("Escolha a tabuada: "))
 
     for i in range(1, 11):
 

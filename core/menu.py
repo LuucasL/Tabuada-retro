@@ -1,4 +1,6 @@
 from modos.retro import modo_retro
+from modos.treino import modo_treino
+from core.utils import escolher_tabuada
 
 def menu():
 
@@ -16,11 +18,13 @@ def menu():
         opcao = input("\nEscolha uma opção: ")
 
         if opcao == "1":
-            modo_retro()
+            numero = escolher_tabuada()
+            modo_retro(numero)
 
         elif opcao == "2":
-            print("\n🚧 Em desenvolvimento...\n")
-            input("Pressione Enter...")
+            numero = int(input("Escolha a Tabuada"))
+            modo_treino(numero)
+            
 
         elif opcao == "3":
             print("\n🚧 Em desenvolvimento...\n")
