@@ -16,5 +16,5 @@ def cabecalho():
     print("+=================================================+")
 
 def escolher_tabuada():
-    numero = int(input("Escolha a Tabuada!"))
+    numero = int(input("Escolha a Tabuada:..."))
     return numero
